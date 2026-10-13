@@ -56,9 +56,10 @@ export const portfolioData = {
     location: "India",
     resumeUrl: "/resume.pdf",
     aboutBio: [
-      "Hello! I'm Abhay, a Computer Science Engineering student with an obsession for creating exceptional digital products. My journey in software engineering started when I built my first interactive web application and discovered the satisfaction of transforming lines of code into engaging user experiences.",
-      "Fast-forward to today, I focus on engineering robust full-stack applications with the MERN stack (MongoDB, Express.js, React, Node.js) and Next.js. I thrive at the intersection of clean architecture, delightful user interfaces, and high-performance server logic.",
-      "When I'm not coding, you can find me diving into open-source repositories, exploring system design concepts, experimenting with modern UI animations, or writing technical guides for fellow developers."
+      "Hi! I'm Abhay Soni, a Computer Science Engineering student passionate about building modern, responsive, and user-friendly web applications. I enjoy turning ideas into functional digital experiences by combining creative UI design with efficient and scalable code.",
+      "I specialize in full-stack web development using the MERN stack — MongoDB, Express.js, React.js, and Node.js. I enjoy developing end-to-end applications, exploring new technologies, and solving real-world problems through software. My projects, including an Event Booking Platform, have helped me strengthen my skills in frontend development, backend APIs, authentication, database management, and application design.",
+      "Beyond coding, I'm continuously improving my Data Structures and Algorithms skills, learning software engineering best practices, and exploring modern web technologies to become a better developer.",
+      "My goal is to build impactful software, contribute to innovative projects, and grow as a Software Development Engineer while creating digital products that make a difference."
     ],
     skills: {
       languages: ["JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3 / Sass", "SQL", "C++"],
@@ -151,14 +152,14 @@ export const portfolioData = {
   projects: [
     {
       id: "project-1",
-      title: "DevFlow Collaboration Hub",
+      title: "BookMyEvent Event Booking Platform",
       description:
-        "A full-stack project workspace for engineering teams with real-time Kanban boards, markdown docs, and instant team chat.",
+        "A full-stack event booking platform featuring event discovery, secure OTP-based verification, ticket booking, and real-time booking status tracking.",
       longDescription:
-        "Engineered with Next.js, Node.js, and MongoDB. Features live task synchronization using Socket.io, role-based project permissions, interactive comment threads, and automated GitHub activity feed webhooks.",
-      tags: ["Next.js", "React", "Node.js", "MongoDB", "Socket.io", "Tailwind CSS"],
+        "Built a full-stack event booking platform featuring event discovery, secure OTP-based verification, ticket booking, and real-time booking status tracking. Includes an admin dashboard for managing events, approving bookings, and monitoring payments and revenue.",
+      tags: ["React.js", "Node.js", "MongoDB", "Express.js", "JWT", "Tailwind CSS"],
       githubUrl: "https://github.com",
-      liveUrl: "https://demo.devflow.app",
+      liveUrl: "https://book-my-event-nine.vercel.app/",
       featured: true,
       category: "Full Stack"
     },
@@ -174,59 +175,8 @@ export const portfolioData = {
       liveUrl: "https://pulse.analytics-demo.app",
       featured: true,
       category: "Full Stack"
-    },
-    {
-      id: "project-3",
-      title: "CineVerse Media Discovery",
-      description:
-        "Sleek movie and streaming discovery application with fluid animations, curated collections, and personalized bookmarks.",
-      longDescription:
-        "Utilizes TMDB API with Next.js incremental static regeneration, smooth micro-interactions, responsive trailers player, and an intelligent recommendation algorithm based on user genre preferences.",
-      tags: ["Next.js", "TypeScript", "Tailwind CSS", "TMDB API", "Framer Motion"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://cineverse.explore.app",
-      featured: true,
-      category: "Frontend"
-    },
-    {
-      id: "project-4",
-      title: "ShopSphere E-Commerce Engine",
-      description:
-        "Full-featured headless MERN e-commerce application with dynamic product filtering, shopping cart, and Stripe checkout.",
-      longDescription:
-        "Complete shopping experience with administrative inventory management, real-time stock deductions, order status emails, and webhooks integration for instant payment verification.",
-      tags: ["MongoDB", "Express.js", "React", "Node.js", "Stripe", "Tailwind CSS"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://shopsphere.store.app",
-      featured: false,
-      category: "Full Stack"
-    },
-    {
-      id: "project-5",
-      title: "CodeVault Snippet Manager",
-      description:
-        "Developer productivity tool to organize, tag, and search code snippets with syntax highlighting and quick clipboard sharing.",
-      longDescription:
-        "Fast client-first utility built with React, TypeScript, and IndexedDB for offline-first resilience. Includes custom language themes and keyboard shortcuts.",
-      tags: ["React", "TypeScript", "Tailwind CSS", "IndexedDB"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://codevault.snippet.app",
-      featured: false,
-      category: "Frontend"
-    },
-    {
-      id: "project-6",
-      title: "CloudTask REST API",
-      description:
-        "High-throughput task scheduling microservice with Redis caching, rate limiting, and automated Swagger/OpenAPI docs.",
-      longDescription:
-        "Dockerized backend service handling asynchronous background jobs, secure authentication, and webhook notifications with comprehensive Jest unit test coverage.",
-      tags: ["Node.js", "Express.js", "Redis", "Docker", "Jest"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://api.cloudtask.dev",
-      featured: false,
-      category: "Backend"
     }
+
   ] as Project[],
 
   blogPosts: [
@@ -288,9 +238,8 @@ export const portfolioData = {
         "Node.js",
         "Express.js",
         "REST APIs",
-        "Socket.io",
-        "JWT Auth",
-        "GraphQL"
+
+        "JWT Auth"
       ]
     },
     {
@@ -311,8 +260,6 @@ export const portfolioData = {
         "Docker",
         "Postman",
         "Vercel",
-        "Linux",
-        "CI/CD",
         "AWS"
       ]
     }

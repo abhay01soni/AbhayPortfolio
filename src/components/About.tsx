@@ -1,7 +1,7 @@
 "use client";
 
 import { portfolioData } from "@/data/portfolioData";
-import AboutPhoto from "./AboutPhoto";
+import SkillOrbs from "./SkillOrbs";
 
 export default function About() {
   const { personal } = portfolioData;
@@ -28,9 +28,9 @@ export default function About() {
           ))}
         </div>
 
-        {/* Right Column: Profile photo with accent-colored offset border */}
+        {/* Right Column: Interactive Skill Orbs */}
         <div className="lg:col-span-5 flex justify-center lg:justify-end">
-          <AboutPhoto />
+          <SkillOrbs />
         </div>
       </div>
     </section>
